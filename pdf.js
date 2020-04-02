@@ -12869,7 +12869,7 @@ var PDFViewerApplication = {
   renderInteractiveForms: false,
   enablePrintAutoRotate: false
  },
- isViewerEmbedded: window.parent !== window,
+ isViewerEmbedded: true,
  url: '',
  baseUrl: '',
  externalServices: DefaultExernalServices,
