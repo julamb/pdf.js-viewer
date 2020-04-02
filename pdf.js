@@ -12173,6 +12173,7 @@ function attachDOMEventsToEventBus(eventBus) {
 }
 var globalEventBus = null;
 function getGlobalEventBus() {
+  return new EventBus();
  if (globalEventBus) {
   return globalEventBus;
  }
