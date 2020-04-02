@@ -1,5 +1,5 @@
 {
-  "name": "pdf.js-dist",
+  "name": "pdf.js-viewer",
   "version": "0.1.0",
   "description": "Compiled version of pdf.js",
   "main": "pdf.js",
@@ -20,10 +20,7 @@
   },
   "homepage": "https://github.com/legalthings/pdf.js-dist#readme",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "css-prefix": "git+https://github.com/moesjarraf/css-prefix.git#0.0.2+moesjarraf.3"
   },
   "dependencies": {
-    "uglifycss": "0.0.25"
   }
 }
